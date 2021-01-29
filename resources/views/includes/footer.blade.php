@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
                         <h3 class="footer-header1">Head Office</h3>
-                        <p class="footer-dsc">Accent & Rovers, Adewale Crescent off Badore, Ajah Lagos.</p>
+                        <p class="footer-dsc">Accent & Rovers, Adewale Crescent Off Badore, Ajah Lagos.</p>
                         <p class="footer-dsc">Email: info@peatechnologies.com <br> Contact: 08182256436</p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 segment-two">

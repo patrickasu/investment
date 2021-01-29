@@ -23,7 +23,7 @@
                 <div class="col-md-6 feature-caption">
                     <div class="feature-content">
                         <h5 style="padding-top: 70px; color: #ccc;" class="watch">What we provide<br><span class="watch2">Earn more money with Fixed Deposits</span></h5> 
-                        <p style="color: #ccc;">Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus aliquam sed justo a volutpat. Proin ornare nisi in lorem blandit suscipit. Nam at lobortis mauris, vitae dignissim eros. Lorem ipsum dolor sit amet</p>  
+                        <p style="color: #ccc;">Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus aliquam sed justo a volutpat Proin ornare nisi in lorem blandit suscipit. Nam at lobortis mauris, vitae dignissim eros. Lorem ipsum dolor sit amet</p>  
                         <p style="color: #ccc;">Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus aliquam sed justo a volutpat. Proin ornare nisi in lorem blandit suscipit. Nam at lobortis mauris, vitae dignissim eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam sed justo a volutpat.</p>  
                         <a style="margin-bottom: 50px" href="" class="mybtn">CONTACT US</a>
                     </div>
