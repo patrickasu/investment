@@ -20,3 +20,9 @@ Route::get('/', function () {
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->middleware('verified');
+
+//Static pages
+Route::get('/about', 'StaticpageController@about');
+Route::get('/services', 'StaticpageController@services');
+Route::get('/contact', 'StaticpageController@contact');
+

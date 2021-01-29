@@ -1,0 +1,547 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body 
+{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.myimg-fluid{
+    width: 280px;
+    height: 90px;
+    margin-left: 30px;
+}
+
+.nav-link{
+    color: #c73928 !important;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul {
+  list-style: none;
+ }
+
+#stage{
+  background: url('https://investnow.ng/Assets/img/attachments[2].jpeg');
+  /* background-size: cover; */
+  background-position: center;
+  color: #fff;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top: 1px solid #ccc;
+}
+
+.learn{
+  margin-top: 350px !important; 
+  margin-left: 120px; 
+  background-color: #c73928; 
+  color: #fff;
+}
+
+.money-img{
+  background-position: center;
+  color: #fff;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#stage-caption{
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 60rem;
+}
+
+#stage-caption h1{
+  color: #f0f0f0;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 150px;
+  line-height: 55px;
+}
+
+.feature-section{
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+.watch{
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.watch2{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.watch-section-2{
+  margin-left: 8px;
+}
+
+.feature-dark{
+  background: #192825; 
+  color: white;
+}
+
+.mybtn {
+  display: inline-block;
+  border: 1px solid #192825;
+  background: #ccc;
+  color: #192825;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+footer{
+  background-color: #192825;
+}
+
+  .footer-header{
+    color: #fff;
+    text-align: left;
+  }
+
+  .footer-top{
+    padding: 80px 0px;
+  }
+
+  .footer-header1{
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Courgette';
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .footer-header2{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .footer-header2:before{
+    content: '|';
+    color: #b80257;
+    padding-right: 10px;
+  }
+
+  .footer-header3{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .footer-header3:before{
+    content: '|';
+    color: #b80257;
+    padding-right: 10px;
+  }
+
+  .footer-header4{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .footer-header4:before{
+    content: '|';
+    color: #b80257;
+    padding-right: 10px;
+  }
+
+  .footer-dsc{
+    color: #ccc;
+  }
+
+  .submit{
+    background-color: #e84334;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .footer-bottom-text{
+    text-align: center;
+    line-height: 20px;
+    color: #ccc;
+    padding: 15px;
+    border-top: 1px solid #fff;
+  }
+
+  .fa-facebook-square,
+  .fa-twitter,
+  .fa-instagram,
+  .fa-linkedin{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  .fab{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 12px;
+  }
+
+  .footer-ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+
+  .footer-li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+    text-align: left;
+  }
+
+  .footer-link{
+    color: #ccc;
+    text-decoration: none;
+  }
+
+
+.fa-person-booth,
+.fa-laptop,
+.fa-recycle,
+.fa-skiing-nordic{
+    font-size: 50px;
+    display: inline-block;
+    color: #337ab7;
+}
+
+.icons-span{
+    display: inline-block;
+}
+
+/* About Us */
+.profile{
+  font-family:'Roboto';
+  color: #ea843a;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.profile-dsc{
+  color: #232323;
+  font-size: 18px;
+}
+
+.about-section{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.about{
+  color: #ea843a;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.abt-darken{
+  filter: brightness(70%);
+}
+
+.services{
+  color: #232323;
+  font-family:'Roboto';
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.fa-hand-point-right,
+.fa-bullhorn,
+.fa-mail-bulk,
+.fa-edit,
+.fa-grav,
+.fa-laptop-code{
+  font-size: 48px;
+  color: #ea843a;
+  margin-left: 170px;
+  margin-bottom: 15px;
+}
+
+.service-icon{
+  text-align: center;
+  color: #232323;
+}
+
+.service-icon-header{
+  text-align: center;
+  color: #232323;
+  font-size: 25px;
+}
+
+.contactus-container {
+  max-width:800px;
+  height: 580px;
+  margin:0 auto;
+  text-align:center;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  background-color:#ccc;
+  margin-bottom: 70px;
+}
+.head {
+  -webkit-border-radius:6px 6px 0px 0px;
+  -moz-border-radius:6px 6px 0px 0px;
+  border-radius:6px 6px 0px 0px;
+  background-color:#ec457e;
+  color:#FAFAFA;
+}
+h2 {
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+}
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+input:first-of-type
+{
+  margin-top: 8px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  border: 1px solid #cecece;
+  background: #fff;
+  color:#232323;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+}
+::-webkit-input-placeholder {
+   color: #2d2254;
+}
+:-moz-placeholder {
+   color: #2d2254; 
+}
+::-moz-placeholder {
+   color: #2d2254; 
+}
+:-ms-input-placeholder {  
+   color: #2d2254;  
+}
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:#ec457e;
+  padding: 12px 45px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ec457e;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+}
+button:hover, .button:hover {
+  background:#19a08c;
+}
+label.error {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #stage{
+    background: url('https://investnow.ng/Assets/img/attachments[2].jpeg');
+    /* background-size: cover; */
+    background-position: center;
+    color: #fff;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #ccc;
+  }
+
+  .learn{
+    margin-top: 350px !important; 
+    margin-left: 100px; 
+    background-color: #c73928; 
+    color: #fff;
+  }
+
+  .watch2{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .watch{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .watch-section-2{
+    margin-left: 20px;
+  }
+  #stage-caption h1{
+    color: #f0f0f0;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 150px;
+    font-size: 35px;
+    padding: 20px;
+  }
+.footer-header3,
+.footer-header4{
+  margin-top: 50px;
+}
+
+.footer-header2{
+  margin-top: 20px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  #stage{
+    background: url('https://investnow.ng/Assets/img/attachments[2].jpeg');
+    /* background-size: cover; */
+    background-position: center;
+    color: #fff;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #ccc;
+  }
+
+  .learn{
+    margin-top: 350px !important; 
+    margin-left: 100px; 
+    background-color: #c73928; 
+    color: #fff;
+  }
+
+  .watch2{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .watch{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .watch-section-2{
+    margin-left: 20px;
+  }
+  #stage-caption h1{
+    color: #f0f0f0;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 150px;
+    font-size: 35px;
+    padding: 20px;
+  }
+.footer-header3,
+.footer-header4{
+  margin-top: 50px;
+}
+
+.footer-header2{
+  margin-top: 20px;
+}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+
