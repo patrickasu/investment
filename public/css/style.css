@@ -1,60 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto&family=Ubuntu&display=swap');
 *{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 
-html, body 
-{
+html {
     height: 100%;
     width: 100%;
+    font-family: "Roboto Lt",sans-serif;
+    color: #333;
     margin: 0 auto;
-	padding: 0px;
-	overflow-x: hidden;
+	  padding: 0px;
+    overflow-x: hidden;
 }
 
-.navbar-light .navbar-brand{
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
+.navbar {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+  url('https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+  /* background-attachment: fixed; */
+  background-position: auto,center top;
+  color: #fff !important;
+  background-size: cover;
+  width: 100%;
+  height: 60px;
+}
+
+  .nav-link{
+    color: #f0f0f0 !important;
+    font-weight: 500;
+  }  
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* .site-content{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px;
+} */
+
+/* .header{
+    margin-top: 60%;
+    font-family: 'Lato';
     letter-spacing: 2px;
-}
-
-.myimg-fluid{
-    width: 280px;
-    height: 90px;
-    margin-left: 30px;
-}
-
-.nav-link{
-    color: #c73928 !important;
-    font-weight: bolder;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-ul {
-  list-style: none;
- }
+    color: #fff;
+} */
 
 #stage{
-  background: url('https://investnow.ng/Assets/img/attachments[2].jpeg');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
   /* background-size: cover; */
   background-position: center;
   color: #fff;
-  height: 80%;
   width: 100%;
-  display: flex;
+  height: 600px;
+  display: inline-block;
   align-items: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  border-top: 1px solid #ccc;
+  background-size: cover;
 }
 
 .learn{
-  margin-top: 350px !important; 
-  margin-left: 120px; 
   background-color: #c73928; 
   color: #fff;
 }
@@ -68,17 +80,15 @@ ul {
 }
 
 #stage-caption{
-  font-size: 1.4rem;
-  font-weight: 200;
-  max-width: 60rem;
+  text-align: center;
 }
 
 #stage-caption h1{
   color: #f0f0f0;
-  font-weight: bold;
   text-transform: uppercase;
-  margin-top: 150px;
+  margin-top: 260px;
   line-height: 55px;
+  text-align: center;
 }
 
 .feature-section{
@@ -423,24 +433,299 @@ label.error {
     border-radius:6px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+	background: #2e2a2a;
+	color: #FFF;
+	font-size: 62.5%;
+	font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+} */
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #e95846;
+	text-decoration: none;
+}
+
+.pricing-table-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.6em;
+	color: #FFF;
+	margin-top: 15px;
+	text-align: left;
+	margin-bottom: 25px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table-title a {
+	font-size: 0.6em;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
+}
+/** ========================
+ * Contenedor
+ ============================*/
+.pricing-wrapper {
+	width: 960px;
+	margin: 40px auto 0;
+}
+
+.pricing-table {
+	margin: 0 10px;
+	text-align: center;
+	width: 300px;
+	float: left;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.pricing-table:hover {
+	-webkit-transform: scale(1.06);
+	-ms-transform: scale(1.06);
+	-o-transform: scale(1.06);
+	transform: scale(1.06);
+}
+
+.pricing-title {
+	color: #FFF;
+	background: #e95846;
+	padding: 20px 0;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table.recommended .pricing-title {
+	background: #2db3cb;
+}
+
+.pricing-table.recommended .pricing-action {
+	background: #2db3cb;
+}
+
+.pricing-table .price {
+	background: #403e3d;
+	font-size: 3.4em;
+	font-weight: 700;
+	padding: 20px 0;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table .price sup {
+	font-size: 0.4em;
+	position: relative;
+	left: 5px;
+}
+
+.table-list {
+	background: #FFF;
+	color: #403d3a;
+}
+
+.table-list li {
+	font-size: 1.4em;
+	font-weight: 700;
+	padding: 12px 8px;
+}
+
+.table-list li:before {
+	content: "\f00c";
+	font-family: 'FontAwesome';
+	color: #3fab91;
+	display: inline-block;
+	position: relative;
+	right: 5px;
+	font-size: 16px;
+} 
+
+.table-list li span {
+	font-weight: 400;
+}
+
+.table-list li span.unlimited {
+	color: #FFF;
+	background: #e95846;
+	font-size: 0.9em;
+	padding: 5px 7px;
+	display: inline-block;
+	-webkit-border-radius: 38px;
+	-moz-border-radius: 38px;
+	border-radius: 38px;
+}
+
+
+.table-list li:nth-child(2n) {
+	background: #F0F0F0;
+}
+
+.table-buy {
+	background: #FFF;
+	padding: 15px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.table-buy p {
+	float: left;
+	color: #37353a;
+	font-weight: 700;
+	font-size: 2.4em;
+}
+
+.table-buy p sup {
+	font-size: 0.5em;
+	position: relative;
+	left: 5px;
+}
+
+.table-buy .pricing-action {
+	float: right;
+	color: #FFF;
+	background: #e95846;
+	padding: 10px 16px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-weight: 700;
+	font-size: 1.4em;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.table-buy .pricing-action:hover {
+	background: #cf4f3e;
+}
+
+.recommended .table-buy .pricing-action:hover {
+	background: #228799;	
+}
+
+/** ================
+ * Responsive
+ ===================*/
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+ 	.pricing-wrapper {
+ 		width: 768px;
+ 	}
+
+ 	.pricing-table {
+ 		width: 236px;
+ 	}
+	
+	.table-list li {
+		font-size: 1.3em;
+	}
+
+ }
+
+ @media only screen and (max-width: 767px) {
+ 	.pricing-wrapper {
+ 		width: 420px;
+ 	}
+
+ 	.pricing-table {
+ 		display: block;
+ 		float: none;
+ 		margin: 0 0 20px 0;
+ 		width: 100%;
+ 	}
+ }
+
+@media only screen and (max-width: 479px) {
+	.pricing-wrapper {
+		width: 300px;
+	}
+} 
+
+
+
+
+
+
+
+
 @media (min-width: 0px) and (max-width: 767px) {
-  #stage{
-    background: url('https://investnow.ng/Assets/img/attachments[2].jpeg');
-    /* background-size: cover; */
-    background-position: center;
-    color: #fff;
-    height: 80%;
+  
+  .navbar {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+    url('https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+    /* background-attachment: fixed; */
+    background-position: auto,center top;
+    color: #fff !important;
+    background-size: cover;
     width: 100%;
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid #ccc;
+    height: 30px;
   }
 
   .learn{
-    margin-top: 350px !important; 
-    margin-left: 100px; 
     background-color: #c73928; 
     color: #fff;
   }
@@ -466,9 +751,9 @@ label.error {
     color: #f0f0f0;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 150px;
-    font-size: 35px;
-    padding: 20px;
+    margin-top: 300px;
+    line-height: 30px;
+    font-size: 20px;
   }
 .footer-header3,
 .footer-header4{
@@ -482,27 +767,38 @@ label.error {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-  #stage{
-    background: url('https://investnow.ng/Assets/img/attachments[2].jpeg');
-    /* background-size: cover; */
-    background-position: center;
-    color: #fff;
-    height: 80%;
+  .navbar {
+    background-image:
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+    url('https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+    /* background-attachment: fixed; */
+    background-position: auto,center top;
+    color: #fff !important;
+    background-size: cover;
     width: 100%;
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid #ccc;
+    height: 30px;
   }
-
   .learn{
-    margin-top: 350px !important; 
-    margin-left: 100px; 
     background-color: #c73928; 
     color: #fff;
   }
 
+  .watch2{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  #stage-caption h1{
+    color: #f0f0f0;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 300px;
+    line-height: 30px;
+    font-size: 20px;
+  }
   .watch2{
     font-size: 21px;
     font-weight: bold;

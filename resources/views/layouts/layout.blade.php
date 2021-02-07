@@ -16,83 +16,58 @@
     <title>PEA | Technology</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-    <img src="/img/logo.png" class="myimg-fluid" alt="Logo">
-    </ul>
-    <li style="list-style: none" class="nav-item">
-        <a class="nav-link" href="/">Home</a>
-    </li>
-      <li style="list-style: none" class="nav-item">
-        <a class="nav-link" href="#">About us</a>
-      </li>
-      <li style="list-style: none" class="nav-item">
-        <a class="nav-link" href="/services">Services</a>
-      </li>
-      <li style="list-style: none" class="nav-item">
-        <a class="nav-link" href="#">Investment Plan</a>
-      </li>
-      <li style="list-style: none" class="nav-item">
-        <a class="nav-link" href="/contact">Contact Us</a>
-      </li>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a href="/"><img style="" src="/img/vicns.jpg" class="logo" alt="Company logo"></a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                     <li class="nav-item">
+                    <a class="nav-link" href="">About us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="">Investment</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/recruitment">Sevices</a>
+                    </li>
+                    <li class="nav-item">
+                    <span style="display: inline-block"><a class="nav-link" href="/contact">contact Us</a></span><i style="color: #2db3cb" class="fas fa-cloud-upload-alt"></i>
+                    </li>
+                    
+                    {{-- <li class="nav-item">
+                    <a class="nav-link" href="/consulting">About us</a>
+                    </li> --}}
+                    <li class="nav-item">
+                    <a href="/register"><i style="background-color: #2db3cb; margin-right: 10px; margin-left: 100px; color: #fff; border-radius: 30px; padding-right: 30px; padding-left: 30px; padding-top: 15px; padding-bottom: 15px" class="far fa-user-circle"> Register</i></a>
+                    {{-- <a class="nav-link" href="/outsourcing">Register</a> --}}
+                    </li>
+                    <li class="nav-item">
+                    <a href="/login"><i style="background-color: #e6922e; color: #fff; border-radius: 30px; padding-right: 30px; padding-left: 30px; padding-top: 15px; padding-bottom: 15px" class="fas fa-unlock"> Login</i></a> 
+                        {{-- <a class="nav-link" href="/login">Login</a> --}}
+                    </li>
+                </ul>
+            </div>
+        </div>  
+    </nav>
+
     <div id="stage">
         <div id="stage-caption">
-            {{-- <h1>We build Web Applications from <br> inception to delivery</h1>
-            <p>PEA Technology, We are creative...</p> --}}
-            <a href="/contact" class="btn btn-lg learn">LEARN MORE</a>
+            <h1>Lorem ipsum dolor sit amet <br> ante ipsum primis</h1>
+            <p>Nulla lacinia a tortor sed gravida...</p>
+            <a href="/login" class="btn btn-lg learn">INVEST NOW</a>
         </div>
     </div>
        @yield('content')
         @include('includes.footer')
     
-    {{-- <footer>
-        <div class="footer-top">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
-                        <h3 class="footer-header1">Head Office</h3>
-                        <p class="footer-dsc">Accent & Rovers, Adewale Crescent off Badore, Ajah Lagos.</p>
-                        <p class="footer-dsc">Email: info@peatechnology.com <br> Contact: 08182256436</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
-                        <h3 class="footer-header2">Our Services</h3>
-                        <ul class="footer-ul">
-                            <li class="footer-li"><a class="footer-link" href="/training">Website Development</a></li>
-                            <li class="footer-li"><a class="footer-link" href="http://starrycare.co.uk/">Social Media Marketing</a></li>
-                            <li class="footer-li"><a class="footer-link" href="consulting">Mobile App Development</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
-                        <h3 class="footer-header3">Follow Us</h3>
-                        <p class="footer-dsc">We're on social media and we love you to give us a follow. Connect with us.</p>
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
-                        <h3 class="footer-header4">Our Newletter</h3>
-                        <p class="footer-dsc">Keep up to date on the latest by subscribing to our e-newsletter.</p>
-                        <form action="">
-                            <input type="email" placeholder="Enter your email">
-                            <input class="submit" type="submit" value="subscribe">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <p class="footer-bottom-text"> peatechnology.com © Copyright 2020. All Rights Reserved.</p>
-    </footer>  --}}
-    
 
-    {{-- @yield('content')
-    @include('includes.footer') --}}
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
